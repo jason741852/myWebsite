@@ -29,7 +29,7 @@ $(function(){
 $(function(){
     $("#toTheBottom").click(function(event){
         event.preventDefault();
-        $("body").animate({"scrollTop": "10000px"}, 300);
+        $("body").animate({"scrollTop":  $(document).height()-$(window).height()}, 300);
     })
 });
 
