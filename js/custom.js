@@ -17,6 +17,10 @@ window.onload=function(){
 		document.getElementById("displayProjImage").src="img/shell.png";
 		console.log(3);
 	});
+	proj4.addEventListener("mouseover",function(){
+		document.getElementById("displayProjImage").src="img/rollingball.png";
+		console.log(3);
+	});
 }
 
 $(function(){

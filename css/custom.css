@@ -6,10 +6,10 @@
 
 .thumbs img{
   position: absolute;
-  height: auto; 
-  width: auto; 
-  max-width: 800px; 
-  max-height: 500px;
+  height: auto;
+  width: auto;
+  max-width: 533px;
+  max-height: 333px;
   padding: 10px 10px 30px 10px;
   background: white;
   border: solid 1px black;
@@ -23,37 +23,37 @@
     -o-transform: rotate(5deg);
     transform: rotate(5deg);
 }
- 
+
 .thumbs img:nth-of-type(2) {
-    left: 56%;
+    left: 40%;
     top: 80px;
     -webkit-transform: rotate(-10deg);
     -moz-transform: rotate(-10deg);
     -o-transform: rotate(-10deg);
     transform: rotate(-10deg);
 }
- 
+
 .thumbs img:nth-of-type(3) {
-    left: 30%;
-    top: 500px;
+    left: 20%;
+    top: 400px;
     -webkit-transform: rotate(7deg);
     -moz-transform: rotate(7deg);
     -o-transform: rotate(7deg);
     transform: rotate(7deg);
 }
- 
+
 .thumbs img:nth-of-type(4) {
-    right: 55%;
+    right: 75%;
     top: 300px;
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
     transform: rotate(-3deg);
 }
- 
+
 .thumbs img:nth-of-type(5) {
-    left: 450px;
-    top: 50px;
+    left: 55%;
+    top: 350px;
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
     -o-transform: rotate(2deg);
@@ -61,7 +61,7 @@
 }
 
 #displayProjImage{
-	height: 400px;
+	height: 450px;
 	width: 600px;
 	margin-top: -13%;
 }
@@ -115,7 +115,7 @@ a.projClick{
 	animation: blinker 0.5s linear;
 }
 
-@keyframes blinker {  
+@keyframes blinker {
   50% { opacity: .7; }
 }
 
