@@ -14,11 +14,11 @@ window.onload=function(){
 		console.log(2);
 	});
 	proj3.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/shell.png";
+		document.getElementById("displayProjImage").src="img/meetupvancouver.png";
 		console.log(3);
 	});
 	proj4.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/rollingball.png";
+		document.getElementById("displayProjImage").src="img/rollingball2.png";
 		console.log(3);
 	});
 }
