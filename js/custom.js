@@ -6,20 +6,16 @@ window.onload=function(){
 
 
 	proj1.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/foodnatic.png";
-		console.log(1);
+		document.getElementById("displayProjImage").src="img/escape_dimension.png";
 	});
 	proj2.addEventListener("mouseover",function(){
 		document.getElementById("displayProjImage").src="img/renderer1.png";
-		console.log(2);
 	});
 	proj3.addEventListener("mouseover",function(){
 		document.getElementById("displayProjImage").src="img/meetupvancouver.png";
-		console.log(3);
 	});
 	proj4.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/rollingball2.png";
-		console.log(3);
+		document.getElementById("displayProjImage").src="img/foodnatic.png";
 	});
 }
 
