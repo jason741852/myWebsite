@@ -9,7 +9,7 @@ window.onload=function(){
 		document.getElementById("displayProjImage").src="img/escape_dimension.png";
 	});
 	proj2.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/renderer1.png";
+		document.getElementById("displayProjImage").src="img/opencode.jpg";
 	});
 	proj3.addEventListener("mouseover",function(){
 		document.getElementById("displayProjImage").src="img/meetupvancouver.png";
