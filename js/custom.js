@@ -6,16 +6,22 @@ window.onload=function(){
 
 
 	proj1.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/escape_dimension.png";
+		document.getElementById("displayProjImage").src="img/hs_calculator.png";
 	});
 	proj2.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/opencode.jpg";
+		document.getElementById("displayProjImage").src="img/learn2hack.png";
 	});
 	proj3.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/meetupvancouver.png";
+		document.getElementById("displayProjImage").src="img/foodnatic.png";
 	});
 	proj4.addEventListener("mouseover",function(){
-		document.getElementById("displayProjImage").src="img/foodnatic.png";
+		document.getElementById("displayProjImage").src="img/escape_dimension.png";
+	});
+	proj5.addEventListener("mouseover",function(){
+		document.getElementById("displayProjImage").src="img/opencode.jpg";
+	});
+	proj6.addEventListener("mouseover",function(){
+		document.getElementById("displayProjImage").src="img/meetupvancouver.png";
 	});
 }
 
